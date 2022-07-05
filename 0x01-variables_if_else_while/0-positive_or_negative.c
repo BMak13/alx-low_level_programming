@@ -4,11 +4,12 @@
 /*
  *  Main -assigns a random number to int n eeverytime
  *
- *Description: it exectutes and prints it
+ * Description: it exectutes and prints it answer
  *
  * Return: Always 0 (Success)
  */
 /*
+ * Only output documentation for the given function(s)
  *  betty style doc for function main goes there
  */
 int main(void)
@@ -17,7 +18,6 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	
 	/* your code goes there */
 	if (n < 0)
 		printf("%d is negative\n", n);
