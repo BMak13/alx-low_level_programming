@@ -13,7 +13,9 @@
  *
  *  betty style doc for function main goes there
  *
- *  Description: - it will execute and print answer
+ *  main - assigns a random number to int n everytime
+ *
+ *  Description:  it will execute and print answer
  */
 
 int main(void)
