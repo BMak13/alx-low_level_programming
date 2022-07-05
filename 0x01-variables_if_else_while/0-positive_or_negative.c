@@ -1,12 +1,16 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
-/** Main -assigns a random number to int n eeverytime
- * it exectutes and priints it 
+/*
+ *  Main -assigns a random number to int n eeverytime
+ *
+ * it exectutes and priints it
+ *
  * Return: Always 0 (Success)
  */
-/* betty style doc for function main goes there */
+/*
+ *  betty style doc for function main goes there
+ */
 int main(void)
 {
 	int n;
@@ -16,7 +20,7 @@ int main(void)
 	
 	/* your code goes there */
 	if (n < 0)
-		printf("%d is negative\n",n);
+		printf("%d is negative", n);
 	else if (n > 0)
 		printf("%d is positive\n", n);
 	else if (n == 0)
