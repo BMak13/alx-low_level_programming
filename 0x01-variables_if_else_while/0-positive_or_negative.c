@@ -10,8 +10,12 @@
  */
 /*
  * Only output documentation for the given function(s)
+ *
  *  betty style doc for function main goes there
+ *
+ *  Description: - it will execute and print answer
  */
+
 int main(void)
 {
 	int n;
