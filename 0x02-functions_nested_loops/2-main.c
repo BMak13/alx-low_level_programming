@@ -1,12 +1,10 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
-* main - print print_alphabet_x10
-*
-* Return: Always 0.
-*/
-
+ * main -check code.
+ *
+ * Return: Always 0.
+ */
 int main(void)
 {
 	print_alphabet_x10();
