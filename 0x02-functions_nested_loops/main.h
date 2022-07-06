@@ -1,6 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
-#include "2-print_alphabet_x10"
+#include "2-print_alphabet_x10.c"
 
 /**
  * main - main function block
