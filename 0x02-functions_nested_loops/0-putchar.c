@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * main - main block
- *
- * Description: print _putchar followed by a new line
- *
- * Return:0 nothing
- */
+* main - main block
+*
+* Description: print _putchar followed by a new line
+*
+* Return: Always 0
+*/
 
 int main(void)
 {
