@@ -2,8 +2,9 @@
 
 /**
  * main- prints all single digit numbers of base 10 starting from 0
- *Description: this shall print base numbers 
- * Return : Always 0
+ * @c - numbers to be printed
+ * Description: this shall print base numbers
+ * Return: Always 0
  */
 
 int main(void)
