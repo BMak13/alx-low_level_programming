@@ -7,10 +7,10 @@
 
 int main(void)
 {
-	int ch
-	for (ch = 48; ch <= 57 ; ch++)
+	int c;
+	for (c = 48; c <= 57 ; c++)
 	{
-	putchar(ch);
+	putchar(c);
 	}
 	putchar(10);/* this is an ascii code for a new line */
 
