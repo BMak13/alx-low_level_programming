@@ -3,10 +3,10 @@
 #include <string.h>
 
 /**
- *_strcpy- print copy 
+ *_strcpy- print copy
  *@dest: destination
  *@src: source
- *
+ *Return: character
  */
 
 char *_strcpy(char *dest, char *src)
