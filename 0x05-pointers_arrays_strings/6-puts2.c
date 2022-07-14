@@ -6,16 +6,14 @@
  * @str:  str parameter
  */
 
-void puts2((char *s)
+void puts2(char *str)
 {
-	int a;
+	int len, i;
 
-	for (a =0; s[a] != '\0';a++0)
+	len = strlen(str);
+	for (i = 0; i < len; i += 2)
 	{
-		if (a % 2 == 0)
-		{
-			-putchar(s[a]);
-		}
+		_putchar(str[i]);
 	}
 	_putchar('\n');
 }
