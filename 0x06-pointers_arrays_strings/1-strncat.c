@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * _strncat - concentrates n bytes from a string to another
  * @dest: destination string
