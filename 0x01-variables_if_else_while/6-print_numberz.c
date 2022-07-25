@@ -9,13 +9,13 @@
 
 int main(void)
 {
-	int c;
+	int n;
 
-	for (c = 48; c <= 57 ; c++)
+	for (n = 48; n < 58 ; n++)
 	{
-	putchar(c);
+	putchar(n);
 	}
-	putchar(10);/* this is an ascii code for a new line */
+	putchar(/n);/* this is an ascii code for a new line */
 
 	return (0);
 }
