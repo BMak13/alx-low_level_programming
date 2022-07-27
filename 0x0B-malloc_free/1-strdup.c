@@ -11,6 +11,7 @@ char *_strdup(char *str)
 {
 	char *s;
 	int i = 1, j = 0;
+
 	if (str == NULL)
 		return (NULL);
 	while (str[i])
