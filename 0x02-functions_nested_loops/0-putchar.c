@@ -1,11 +1,10 @@
 #include <stdio.h>
 #include "main.h"
 #include <unistd.h>
-/** 
- * main: use putchar in function
+/**
+ * main - entry point to print _putchar
  *
- * Description: print with _putchar
- * @_putchar: prints letter
+ * Description: 'print with _putchar single letter'
  *
  * Return: Always 0
  */
