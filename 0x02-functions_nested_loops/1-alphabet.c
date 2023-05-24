@@ -1,19 +1,15 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
  * print_alphabet - print the alphabet
- * @c - holds the alphabet to be printed
+ * @ch - holds the alphabet to be printed
  * 
  */
-
 void print_alphabet(void)
 {
-char c;
+char ch;
 
-for (c = 'a' ; c <= 'z'; c++);
-	
-_putchar(c);
+for (ch = 'a' ; ch <= 'z'; ch++);
+_putchar(ch);
 _putchar('\n');
-
 }
