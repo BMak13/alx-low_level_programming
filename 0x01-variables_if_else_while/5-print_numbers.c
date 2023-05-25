@@ -6,7 +6,7 @@
  * Return: 0
  */
 
-int main (void)
+int main(void)
 {
 	int n;
 
@@ -15,5 +15,5 @@ int main (void)
 		printf("%d", n);
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
