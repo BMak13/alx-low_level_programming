@@ -7,13 +7,14 @@
  * Return: 0
  */
 
-int main()
+int main(void)
 {
 	char l;
 
 	for (l = 'a'; l <= 'z'; l++)
-	{ 
-		putchar(l \n);
+	{
+		putchar(l);
 	}
-	return(0);
+	putchar(\n);
+	return (0);
 }
