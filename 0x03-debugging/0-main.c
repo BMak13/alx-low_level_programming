@@ -1,19 +1,17 @@
 #include "main.h"
 
 /**
- * positive_or_negative - postive or negative
+ * main - zero or not
  *
  * Return: 0
  */
 
-void positive_or_negative(int i)
+int main(void)
 {
-	if (i > 0)
-		printf("%d is positive\n", i);
-	else if (i < 0)
-		printf("%d is negative\n", i);
-	else
-		printf("%d is zero\n", i);
+	int i;
 
+	i = 0;
+	postive_or_negative(i);
 
+	return (0);
 }
