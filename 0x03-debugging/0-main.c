@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * main - zero or not
  *
