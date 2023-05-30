@@ -12,21 +12,20 @@ void puts_half(char *str)
 	int n = 0;
 	int b;
 
-	while (str[n] != '\n')
+	while (str[n] != '\0')
 	{
 		n++;
 	}
 	if (n % 2 == 1)
 	{
-		b = (n -1) /2;
+		b = (n - 1) / 2;
 		b += 1;
 	}
 	else 
 	{
 		b = n / 2;
 	}
-
-	for (;b < n; b++)
+	for (; b < n; b++)
 	{
 		putchar(str[b]);
 	}
