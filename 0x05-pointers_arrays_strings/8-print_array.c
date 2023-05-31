@@ -18,6 +18,6 @@ void print_array(int *a, int n)
 	}
 	if (d == (n - 1))
 	{
-		printf("%d", a[n]);
+		printf("%d", a[n - 1]);
 	}
 }
