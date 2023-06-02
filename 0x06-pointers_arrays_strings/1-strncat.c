@@ -3,9 +3,9 @@
 /**
  *_strncat - join two strings with n bytes
  *@dest: copy to dest
- *@src: copy from 
+ *@src: copy from
  *@n: number of characters to be copied
- *Return: dest	
+ *Return: dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
@@ -27,5 +27,3 @@ char *_strncat(char *dest, char *src, int n)
 	dest[i] = '\0';
 	return (dest);
 }
-
-	
