@@ -4,7 +4,7 @@
 
 /**
  * print_dog - print the dog
- * @d: the struct of the dog 
+ * @d: the struct of the dog
  */
 
 void print_dog(struct dog *d)
@@ -14,7 +14,7 @@ void print_dog(struct dog *d)
 
 	if (d->name == NULL)
 		printf("Name: (nil)\n");
-	else 
+	else
 		printf("Name: %s\n", d->name);
 
 	if (d->age < 0)
